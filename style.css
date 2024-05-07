@@ -231,3 +231,69 @@ header {
   line-height: 32px; /* 100% */
   text-transform: uppercase;
 }
+
+.SeeAll {
+  margin-top: 34px;
+  margin-bottom: 100px;
+  border: solid 1px #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SeeAll span {
+  color: #000;
+  font-family: Alata;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 13px 40px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  width: 100%;
+  height: 470px;
+  flex-shrink: 0;
+}
+.Text {
+  margin-top: 32px;
+  margin-bottom: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Text h2 {
+  color: #fff;
+  font-family: Alata;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 18px;
+}
+footer p {
+  color: #fff;
+  font-family: Alata;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.5;
+}
