@@ -168,6 +168,7 @@ header {
 }
 
 .Div {
+  margin-top: 20px;
   position: relative;
   background-color: #000;
   width: 327px;
@@ -205,6 +206,28 @@ header {
   background-position: center;
 }
 .Background5 {
+  background-image: url("./images/mobile/image-from-above.jpg");
+  background-position: center;
+}
+.Background6 {
   background-image: url("./images/mobile/image-pocket-borealis.jpg");
   background-position: center;
+}
+.Background7 {
+  background-image: url("./images/mobile/image-curiosity.jpg");
+  background-position: center;
+}
+.Background8 {
+  background-image: url("./images/mobile/image-fisheye.jpg");
+  background-position: center;
+}
+.StartingThird #h2 {
+  color: #000;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 100% */
+  text-transform: uppercase;
 }
